@@ -43,13 +43,13 @@ class Lab10App:
         self.surface_var = tk.StringVar(value=SURFACE_NAMES[0])
         self.x_min_var = tk.StringVar(value="-6")
         self.x_max_var = tk.StringVar(value="6")
-        self.x_step_var = tk.StringVar(value="0.5")
+        self.x_step_var = tk.StringVar(value="0.1")
         self.z_min_var = tk.StringVar(value="-6")
         self.z_max_var = tk.StringVar(value="6")
-        self.z_step_var = tk.StringVar(value="0.5")
+        self.z_step_var = tk.StringVar(value="0.2")
 
-        self.angle_x_var = tk.StringVar(value="25")
-        self.angle_y_var = tk.StringVar(value="35")
+        self.angle_x_var = tk.StringVar(value="15")
+        self.angle_y_var = tk.StringVar(value="25")
         self.angle_z_var = tk.StringVar(value="0")
         self.scale_var = tk.StringVar(value="55")
 
